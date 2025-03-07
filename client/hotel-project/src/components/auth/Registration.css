@@ -1,0 +1,100 @@
+/* Registration Page Styles */
+.registration-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgb(143, 143, 143), rgb(143, 143, 143));
+    background-size: cover;
+}
+
+.registration-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+.registration-container h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+.form-control {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.btn-register {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    border: none;
+    color: rgb(112, 104, 104);
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 30px; /* More rounded button */
+    cursor: pointer;
+    transition: background 0.4s ease, transform 0.3s ease;
+}
+
+.btn-register:hover {
+    background: linear-gradient(135deg, #523e2e, #ff7e5f);
+    transform: scale(1.05);
+}
+
+.btn-register:focus {
+    outline: none;
+}
+
+.text-link {
+    color: #473b38;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.text-link:hover {
+    color: #feb47b;
+}
+
+/* Styling for the error and success messages */
+.alert-danger, .alert-success {
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    background-color: #28a745; /* Green for success messages */
+}
+
+/* Styling for the space between button and message */
+.message-container {
+    margin-top: 20px; /* Adjust the spacing as needed */
+}
+
+.registration-form {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,24 @@
+/* Footer.css */
+
+.footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* Light text color */
+    padding: 20px 0; /* Adequate padding */
+    border-top: 1px solid #444; /* Light border on top for separation */
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem; /* Adjust font size */
+    font-weight: 300; /* Lighter font weight */
+}
+
+.footer a {
+    color: #f8f9fa; /* Light color for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #e9ecef; /* Slightly lighter color on hover */
+}

@@ -1,0 +1,65 @@
+/* HotelService.css */
+
+
+body {
+    /* Ensure the whole page uses good text rendering */
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.hotel-service-container {
+    padding: 30px 15px;
+}
+
+.service-title {
+    font-size: 1.25rem; /* Smaller font size */
+    font-weight: 800;
+    color: #333;
+}
+
+.hotel-color {
+    color: #3498db; /* Matches the color scheme */
+}
+
+.service-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #3498db; /* Matches the hotel-color */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555; /* Softer color for the text */
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #ddd;
+    margin: 20px 0;
+}
+.header-title {
+    
+    text-align: center;
+    margin-bottom: 20px; /* Space below */
+    font-size: 2rem; /* Adjusted font size */
+    font-weight: 700;
+    color: #333; /* Dark color for better readability */
+    text-rendering: optimizeLegibility; /* Improve text clarity */
+    -webkit-font-smoothing: antialiased; /* Improve font rendering */
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
