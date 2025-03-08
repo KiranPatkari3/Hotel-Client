@@ -12,7 +12,7 @@ This is the **frontend** of the Hotel Booking Application, built using **ReactJS
 
 ##  Backend Repository
 The backend service for this project is available here:  
-[Hotel Booking Backend Repository]((https://github.com/KiranPatkari3/Hotel-Server.git))
+[Hotel Booking Backend Repository](https://github.com/KiranPatkari3/Hotel-Server.git)    
 
 ## Tech Stack
 - **Frontend**: ReactJS, Redux, Axios
